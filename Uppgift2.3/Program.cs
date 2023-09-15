@@ -9,7 +9,7 @@ namespace Uppgift_2.__3
             int dagar = int.Parse(Console.ReadLine());
             Console.WriteLine("Hur många kilometer ska du köra?..");
             int km = int.Parse(Console.ReadLine());
-            int ans = 300 + km + 500 * dagar;
+            int ans = 300 + km + 500 * (dagar-1);
             Console.WriteLine("Detta kommer att kosta dig " + ans + " kr");
         }
     }
